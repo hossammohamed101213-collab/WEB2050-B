@@ -6,9 +6,9 @@
 
 | الملف | وظيفته |
 |---|---|
-| `index.html` | الموقع كله (HTML + CSS + JavaScript في ملف واحد) |
+| `docs/index.html` | الموقع كله (HTML + CSS + JavaScript في ملف واحد) — المنشور على GitHub Pages |
 | `MASTER_PROMPT.md` | الأمر الشامل لإنشاء نفس الموقع من الصفر أو تحويله لنشاط آخر |
-| `.nojekyll` | يجعل GitHub Pages يعرض الملف كما هو |
+| `docs/.nojekyll` | يجعل GitHub Pages يعرض الملف كما هو |
 | `.gitignore` | ملفات يتجاهلها Git |
 
 ## التشغيل على جهازك
@@ -22,7 +22,7 @@
 **من المتصفح (بدون أوامر):**
 1. ادخل github.com ← زر **New repository** ← الاسم `web2050` ← **Create repository**.
 2. اضغط **uploading an existing file** ← اسحب الملفات من داخل المجلد المفكوك (وليس الملف المضغوط نفسه) ← **Commit changes**.
-3. من **Settings ← Pages** اختر **Deploy from a branch** ← الفرع `main` والمجلد `/ (root)` ← **Save**.
+3. من **Settings ← Pages** اختر **Deploy from a branch** ← الفرع `main` والمجلد `/docs` ← **Save**.
 4. بعد دقيقة يظهر رابط الموقع أعلى الصفحة نفسها (يكون بالشكل `https://اسمك.github.io/web2050/`).
 
 **بالأوامر:**
